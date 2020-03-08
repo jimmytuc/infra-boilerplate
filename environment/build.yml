@@ -1,17 +1,7 @@
 version: '2.4'
 
 services:
-  python:
-    image: 976402106354.dkr.ecr.ap-southeast-1.amazonaws.com/scraper/python:${APP_VERSION}
+  app:
+    image: ***.ecr.ap-region.amazonaws.com/project/app:${APP_VERSION}
     build:
-      context: ./python
-
-  syslog-ng:
-    image: 976402106354.dkr.ecr.ap-southeast-1.amazonaws.com/scraper/syslog:${APP_VERSION}
-    build:
-      context: ./syslog
-
-  logstash:
-    image: 976402106354.dkr.ecr.ap-southeast-1.amazonaws.com/scraper/logstash:${APP_VERSION}
-    build:
-      context: ./logstash
+      context: ./app

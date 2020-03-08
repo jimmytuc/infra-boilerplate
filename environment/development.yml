@@ -1,56 +1,18 @@
-version: '2.1'
+version: '2.4'
 
 services:
-  syslog:
+  app:
     build:
-      context: ./syslog
-    container_name: scraper-syslog
+      context: ./app
+    container_name: container-app
+    volumes:
+      - ../logs/app:/app/logs
+      - ..:/app/
     ports:
-      - 601:601
-    volumes:
-      - ../logs/syslog-scraper:/var/log/syslog
-      - ./syslog/config/conf.d.development/:/etc/syslog-ng/conf.d/
-    restart: always
-
-  python:
-    build:
-      context: ./python
-    container_name: scraper-python
-    volumes:
-      - ../logs/scraper:/iprice/logs
-      - ..:/scraper/
-    working_dir: /scraper
-    command: bash -c '/bin/bash worker.sh && /etc/init.d/cron start && /bin/bash'
+      - 9000:9000
+    working_dir: /app
+    command: bash -c 'yarn dev'
     tty: true
     mem_limit: 2500m
     memswap_limit: 3000m
     restart: on-failure:5
-    depends_on:
-      redis:
-        condition: service_healthy
-
-  redis:
-    image: redis:alpine
-    container_name: scraper-redis
-    ports:
-      - 6376:6379
-    mem_limit: 2000m
-    memswap_limit: 2500m
-    restart: always
-    healthcheck:
-      test: ['CMD', 'redis-cli', '-h', '127.0.0.1', '-p', '6379', 'ping']
-      interval: 30s
-      timeout: 10s
-      retries: 3
-
-  redis-commander:
-    container_name: redis-commander
-    image: rediscommander/redis-commander:latest
-    environment:
-      REDIS_HOSTS: local:redis:6379
-    ports:
-      - 8081:8081
-    restart: always
-    depends_on:
-      redis:
-        condition: service_healthy
