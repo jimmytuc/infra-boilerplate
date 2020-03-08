@@ -1,0 +1,15 @@
+version: '2.4'
+
+services:
+  app:
+    image: ***.ecr.ap-region.amazonaws.com/project/app:${APP_VERSION}
+    container_name: container-app
+    volumes:
+      - ..:/app/
+      - /var/log/app:/app/logs
+    working_dir: /app
+    command: bash -c 'yarn qa && /etc/init.d/cron start && /bin/bash'
+    tty: true
+    mem_limit: 2500m
+    memswap_limit: 3000m
+    restart: on-failure:5
