@@ -1,17 +1,9 @@
-data "aws_ami" "linux" {
-  most_recent = true
-
-  filter {
-    name   = "name"
-    values = ["ami-docker-image"]
+data "aws_instances" "spot_fleet_request" {
+  instance_tags {
+    "aws:ec2spot:fleet-request-id" = "${aws_spot_fleet_request.spot_fleet_request.id}"
+    "Name" = "${var.instance_name}"
   }
-
-  filter {
-    name   = "virtualization-type"
-    values = ["hvm"]
-  }
-
-  owners = ["123456789"]
+  depends_on = ["aws_spot_fleet_request.spot_fleet_request"]
 }
 
 data "template_file" "script" {
