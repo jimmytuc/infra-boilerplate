@@ -16,8 +16,8 @@ variable "aws_subnets" {
   type = "map"
 
   default = {
-    "iprice-qa-a"           = "subnet-id-a"
-    "iprice-prod-backend-a" = "subnet-id-b"
+    "app-qa-a"           = "subnet-id-a"
+    "app-prod-backend-a" = "subnet-id-b"
   }
 }
 
