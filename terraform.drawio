@@ -1,1 +1,33 @@
-<mxfile host="app.diagrams.net" modified="2021-11-03T09:50:06.823Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" version="15.2.9" etag="gW7hCWFwKa0PQLut8p5z" type="github"><diagram id="QxWrpHbJSx02NSNL3kXk">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-11-03T10:32:12.130Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="2hsUR6I4WsBEC9lny2sZ" version="15.2.9" type="github">
+  <diagram id="QxWrpHbJSx02NSNL3kXk" name="Page-1">
+    <mxGraphModel dx="955" dy="557" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="arPpOaJSbTXaJ0a4Uy7O-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="arPpOaJSbTXaJ0a4Uy7O-1" target="arPpOaJSbTXaJ0a4Uy7O-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arPpOaJSbTXaJ0a4Uy7O-1" value="Azure" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="240" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="arPpOaJSbTXaJ0a4Uy7O-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.07;entryY=0.4;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="arPpOaJSbTXaJ0a4Uy7O-2" target="arPpOaJSbTXaJ0a4Uy7O-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arPpOaJSbTXaJ0a4Uy7O-4" value="terraform CLI" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="arPpOaJSbTXaJ0a4Uy7O-3">
+          <mxGeometry x="-0.3048" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arPpOaJSbTXaJ0a4Uy7O-2" value="terraform agent" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/devops/DevTest_Labs.svg;" vertex="1" parent="1">
+          <mxGeometry x="60" y="240" width="66" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="arPpOaJSbTXaJ0a4Uy7O-5" value="azure blob storage&lt;br&gt;terraform state file" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="325" y="30" width="90" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="arPpOaJSbTXaJ0a4Uy7O-7" value="provisioning&lt;br&gt;resources" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
