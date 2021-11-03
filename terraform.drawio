@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-03T11:45:20.400Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="06y0W-9RPK1VtNaJqOyJ" version="15.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-03T11:49:41.684Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="EdxcDiop5A-MDCkrs9Vo" version="15.2.9" type="github">
   <diagram id="QxWrpHbJSx02NSNL3kXk" name="Page-1">
     <mxGraphModel dx="955" dy="557" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -72,11 +72,8 @@
         <mxCell id="arPpOaJSbTXaJ0a4Uy7O-24" value="AZ AD roles&lt;br&gt;and administrators" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/intune/Azure_AD_Roles_and_Administrators.svg;" vertex="1" parent="1">
           <mxGeometry x="350" y="620" width="64" height="64" as="geometry" />
         </mxCell>
-        <mxCell id="arPpOaJSbTXaJ0a4Uy7O-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="arPpOaJSbTXaJ0a4Uy7O-28" target="arPpOaJSbTXaJ0a4Uy7O-14">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="arPpOaJSbTXaJ0a4Uy7O-28" value="Security groups" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/networking/Network_Security_Groups.svg;" vertex="1" parent="1">
-          <mxGeometry x="730" y="403" width="44.47" height="54" as="geometry" />
+          <mxGeometry x="773.77" y="403" width="44.47" height="54" as="geometry" />
         </mxCell>
         <mxCell id="arPpOaJSbTXaJ0a4Uy7O-31" value="" style="endArrow=classic;html=1;exitX=0.515;exitY=-0.062;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="arPpOaJSbTXaJ0a4Uy7O-15" target="arPpOaJSbTXaJ0a4Uy7O-12">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -105,6 +102,29 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="300" y="530" as="sourcePoint" />
             <mxPoint x="160" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arPpOaJSbTXaJ0a4Uy7O-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="arPpOaJSbTXaJ0a4Uy7O-46" target="arPpOaJSbTXaJ0a4Uy7O-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arPpOaJSbTXaJ0a4Uy7O-46" value="Load Balancer" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/networking/Load_Balancers.svg;" vertex="1" parent="1">
+          <mxGeometry x="760" y="258" width="72" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="arPpOaJSbTXaJ0a4Uy7O-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="arPpOaJSbTXaJ0a4Uy7O-49" target="arPpOaJSbTXaJ0a4Uy7O-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arPpOaJSbTXaJ0a4Uy7O-54" value="public&lt;br&gt;access" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="arPpOaJSbTXaJ0a4Uy7O-53">
+          <mxGeometry x="0.1313" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arPpOaJSbTXaJ0a4Uy7O-49" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/general/Website_Staging.svg;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="259" width="64" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="arPpOaJSbTXaJ0a4Uy7O-55" value="" style="endArrow=classic;html=1;" edge="1" parent="1" source="arPpOaJSbTXaJ0a4Uy7O-46">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="690" y="350" as="sourcePoint" />
+            <mxPoint x="610" y="430" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
