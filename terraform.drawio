@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-07T22:01:32.475Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="vrXzUykFN70I5JcGKTO0" version="15.9.1" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-12-07T22:03:57.388Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="mvlDhhTYbuXu3wK9fx1E" version="15.9.1" type="github" pages="3">
   <diagram id="QxWrpHbJSx02NSNL3kXk" name="Page-1">
     <mxGraphModel dx="946" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -404,7 +404,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Z8ygChXD5uTRb2kAupGi" name="Page-3">
-    <mxGraphModel dx="946" dy="1639" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="946" dy="1582" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="miqVpHBuMyVKZplU3lFV-0" />
         <mxCell id="miqVpHBuMyVKZplU3lFV-1" parent="miqVpHBuMyVKZplU3lFV-0" />
@@ -585,6 +585,9 @@
         </mxCell>
         <mxCell id="tQ8NMi8C1je2uB7P6sz4-71" value="VPC - Blockchain" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_vpc;strokeColor=#248814;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#AAB7B8;dashed=0;" vertex="1" parent="miqVpHBuMyVKZplU3lFV-1">
           <mxGeometry x="230" y="-270" width="440" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="tQ8NMi8C1je2uB7P6sz4-72" value="Public subnet" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_security_group;grStroke=0;strokeColor=#248814;fillColor=#E9F3E6;verticalAlign=top;align=left;spacingLeft=30;fontColor=#248814;dashed=0;" vertex="1" parent="miqVpHBuMyVKZplU3lFV-1">
+          <mxGeometry x="260" y="10" width="280" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
